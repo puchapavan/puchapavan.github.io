@@ -2,12 +2,14 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Papers in reverse chronological order. Full list on <a href="https://scholar.google.com/citations?user=Zz8nErcAAAAJ">Google Scholar</a>.
+description: Papers in reverse chronological order.
 nav: true
 nav_order: 1
 ---
 
 <!-- _pages/publications.md -->
+
+The full list is also on [Google Scholar](https://scholar.google.com/citations?user=Zz8nErcAAAAJ).
 
 <!-- Bibsearch Feature -->
 
