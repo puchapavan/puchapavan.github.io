@@ -11,8 +11,7 @@ profile:
   more_info: >
     <p>PhD Scholar</p>
     <p>IIITDM Kancheepuram</p>
-    <p>Chennai 600127, India</p>
-    <p><a href="mailto:srinivasapavan28@gmail.com">srinivasapavan28@gmail.com</a></p>
+    <p>Chennai, India</p>
 
 selected_papers: false
 social: true
