@@ -1,0 +1,92 @@
+cv:
+  name: Pucha Srinivasa Pavan
+  label: PhD Scholar, IIITDM Kancheepuram
+  email: srinivasapavan28@gmail.com
+  location: Chennai, India
+  image: ""
+  summary: PhD scholar working on the Winner Determination Problem in combinatorial auctions, with research in machine learning for healthcare and privacy-preserving distributed systems.
+
+  social_networks:
+    - network: GitHub
+      username: srinivas50505
+    - network: LinkedIn
+      username: pucha
+
+  sections:
+    Education:
+      - institution: Indian Institute of Information Technology, Design and Manufacturing (IIITDM) Kancheepuram
+        location: Chennai, India
+        area: Winner Determination Problem in Combinatorial Auctions
+        studyType: PhD
+        start_date: 2026-07
+        end_date: present
+
+      - institution: Andhra University
+        location: Visakhapatnam, India
+        area: Human Resource Management
+        studyType: MBA
+        start_date: 2025
+        end_date: present
+
+      - institution: University College of Engineering Kakinada, JNTUK
+        location: Kakinada, India
+        area: Artificial Intelligence and Machine Learning
+        studyType: M.Tech
+        start_date: 2023
+        end_date: 2025
+        highlights:
+          - "Thesis: deep learning for automated obstructive sleep apnea detection from ECG signals."
+
+      - institution: St. Ann's College of Engineering and Technology, JNTUK
+        location: Chirala, India
+        area: Computer Science and Engineering
+        studyType: B.Tech
+        start_date: 2019
+        end_date: 2023
+
+    Experience:
+      - company: Capgemini
+        position: Software Engineer (Testing)
+        location: Bengaluru, India
+        start_date: 2025-12
+        end_date: 2026-06
+
+      - company: Srinivas Institute of Engineering and Technology
+        position: Assistant Professor, AI & ML
+        location: Cheyyeru, India
+        start_date: 2025-05
+        end_date: 2025-11
+        highlights:
+          - Taught Artificial Intelligence and Machine Learning.
+          - Supervised student projects and organized workshops.
+
+      - company: NEC Corporation
+        position: Software Engineer
+        location: Bengaluru, India
+        start_date: 2022
+        end_date: 2023
+        highlights:
+          - Built backend APIs and contributed to collaborative R&D projects.
+
+    Skills:
+      - name: Machine learning
+        keywords: "Deep learning, signal processing, federated learning, causal representation learning"
+      - name: Programming
+        keywords: "Python, C, React.js, Flutter, LaTeX"
+      - name: Cloud
+        keywords: "AWS (Lambda, S3)"
+
+    Certificates:
+      - name: AWS Certified Developer
+        date: 2023-01-01
+        issuer: Amazon Web Services
+      - name: Machine Learning Specialization
+        date: 2024-01-01
+        issuer: CDAC Pune
+      - name: Python for Everybody
+        date: 2023-01-01
+        issuer: Google (Coursera)
+      - name: Internet of Things
+        issuer: NPTEL
+      - name: Human-Computer Interaction
+        issuer: NPTEL
