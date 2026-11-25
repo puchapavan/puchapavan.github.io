@@ -206,3 +206,27 @@ html[data-theme-setting="light"] {
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
 }
+
+/* Home page: bio vertically centred beside the photo on wide screens */
+@media (min-width: 768px) {
+  article:has(> .profile) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 2.5rem;
+  }
+  article > .profile {
+    order: 2;
+    float: none !important;
+    width: 30%;
+    margin: 0 !important;
+  }
+  article > .clearfix {
+    order: 1;
+    flex: 1;
+  }
+  article:has(> .profile) > :not(.profile):not(.clearfix) {
+    order: 3;
+    width: 100%;
+  }
+}
