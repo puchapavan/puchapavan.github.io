@@ -9,8 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
+    <p>PhD Scholar</p>
     <p>IIITDM Kancheepuram</p>
-    <p>Chennai, India</p>
+    <p>Chennai 600127, India</p>
+    <p><a href="mailto:srinivasapavan28@gmail.com">srinivasapavan28@gmail.com</a></p>
 
 selected_papers: true
 social: true
@@ -24,10 +26,20 @@ latest_posts:
   enabled: false
 ---
 
-I'm a PhD scholar at IIITDM Kancheepuram, where I study the **Winner Determination Problem (WDP) in combinatorial auctions**: how to pick the best set of winning bids when bidders bid on bundles of items rather than single ones. The problem is NP-hard, and it sits at the heart of real markets such as spectrum auctions, logistics and procurement.
+I'm a PhD scholar at IIITDM Kancheepuram, Chennai, working on the **Winner Determination Problem (WDP) in combinatorial auctions**.
 
-Alongside my PhD work, I apply machine learning to healthcare and to privacy-preserving distributed systems, including ECG-based sleep apnea detection, cardiovascular risk prediction from electronic health records, and federated learning for IoT networks.
+In a combinatorial auction, bidders bid on bundles of items instead of single items, and the auctioneer has to choose the set of non-overlapping bids that maximizes total value. The problem is NP-hard, yet real markets such as spectrum allocation, logistics and procurement need it solved quickly and at scale. My research looks at exact and approximate algorithms for WDP, and at how machine learning can guide the search for good allocations.
 
-Before starting my PhD in July 2026, I worked as a software engineer at Capgemini and NEC, and taught Artificial Intelligence and Advanced Data Structures and Algorithms as an Assistant Professor.
+I also work on applied machine learning for healthcare and distributed systems:
 
-**Research interests:** combinatorial auctions, winner determination and combinatorial optimization, deep learning, healthcare AI, federated learning.
+- deep learning for detecting obstructive sleep apnea from ECG signals (_IJCA_, 2025)
+- causal representation learning for early cardiovascular risk prediction from electronic health records (_ICoICI_, 2026)
+- federated learning for privacy-preserving intelligence in IoT networks (_ICAIDIET_, 2026)
+
+Before my PhD, I worked as a software engineer at NEC and Capgemini, and as an Assistant Professor teaching Artificial Intelligence and Advanced Data Structures and Algorithms.
+
+### Contact
+
+I'm open to research collaborations and conversations. The best way to reach me is by email at [srinivasapavan28@gmail.com](mailto:srinivasapavan28@gmail.com).
+
+**Address:** Indian Institute of Information Technology, Design and Manufacturing (IIITDM) Kancheepuram, Vandalur–Kelambakkam Road, Chennai 600127, Tamil Nadu, India.
