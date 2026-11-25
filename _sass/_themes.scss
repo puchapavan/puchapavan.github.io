@@ -238,3 +238,11 @@ html[data-theme-setting="light"] {
 .social .contact-icons a {
   margin: 0 0.35rem;
 }
+
+/* Centre the text under the profile photo */
+.profile .more-info {
+  text-align: center;
+}
+.profile .more-info p {
+  margin-bottom: 0.15rem;
+}
