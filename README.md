@@ -1,6 +1,6 @@
 # Pucha Srinivasa Pavan: personal website
 
-Live at **https://srinivas50505.github.io**. Built with the [al-folio](https://github.com/alshedivat/al-folio) Jekyll template and published by GitHub Actions to the `gh-pages` branch.
+Live at **https://puchapavan.github.io**. Built with the [al-folio](https://github.com/alshedivat/al-folio) Jekyll template and published by GitHub Actions to the `gh-pages` branch.
 
 ## How to update the site
 

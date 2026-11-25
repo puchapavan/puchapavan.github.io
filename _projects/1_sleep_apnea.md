@@ -3,7 +3,7 @@ layout: page
 title: Automated Sleep Apnea Detection
 description: A deep learning pipeline that detects obstructive sleep apnea from ECG signals.
 importance: 1
-github: https://github.com/srinivas50505/Automated-Sleep-Apnea-using-DL
+github: https://github.com/puchapavan/Automated-Sleep-Apnea-using-DL
 related_publications: true
 ---
 
@@ -11,7 +11,7 @@ Obstructive sleep apnea is common and badly under-diagnosed, partly because the 
 
 **Tools:** Python, deep learning, biomedical signal processing.
 
-**Code:** [github.com/srinivas50505/Automated-Sleep-Apnea-using-DL](https://github.com/srinivas50505/Automated-Sleep-Apnea-using-DL)
+**Code:** [github.com/puchapavan/Automated-Sleep-Apnea-using-DL](https://github.com/puchapavan/Automated-Sleep-Apnea-using-DL)
 
 ## Publication
 
