@@ -230,3 +230,11 @@ html[data-theme-setting="light"] {
     width: 100%;
   }
 }
+
+/* Smaller social icons on the home page */
+.social .contact-icons {
+  font-size: 2rem !important;
+}
+.social .contact-icons a {
+  margin: 0 0.35rem;
+}
