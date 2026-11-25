@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Served as an external examiner for lab examinations at SRKR Engineering College, Bhimavaram.
+Served as an external examiner for lab examinations at SRKR Engineering College, Bhimavaram, and Kakinada Institute of Technology and Science (KITS), Kakinada.
