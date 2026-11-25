@@ -50,6 +50,8 @@ cv:
         location: Bengaluru, India
         start_date: 2025-12
         end_date: 2026-06
+        highlights:
+          - Performed functional and regression testing of enterprise applications: wrote and executed test cases, logged and tracked defects, and verified fixes before release.
 
       - company: Srinivas Institute of Engineering and Technology
         position: Assistant Professor, AI & ML
