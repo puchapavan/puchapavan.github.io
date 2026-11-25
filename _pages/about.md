@@ -28,8 +28,6 @@ latest_posts:
 
 I'm a PhD scholar at IIITDM Kancheepuram, Chennai, working on the **Winner Determination Problem (WDP) in combinatorial auctions**.
 
-In a combinatorial auction, bidders bid on bundles of items instead of single items, and the auctioneer has to choose the set of non-overlapping bids that maximizes total value. The problem is NP-hard, yet real markets such as spectrum allocation, logistics and procurement need it solved quickly and at scale. My research looks at exact and approximate algorithms for WDP, and at how machine learning can guide the search for good allocations.
-
 I also work on applied machine learning for healthcare and distributed systems:
 
 - deep learning for detecting obstructive sleep apnea from ECG signals (_IJCA_, 2025)
