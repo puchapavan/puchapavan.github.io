@@ -28,11 +28,7 @@ latest_posts:
 
 I'm a PhD scholar at IIITDM Kancheepuram, Chennai, working on the **Winner Determination Problem (WDP) in combinatorial auctions**.
 
-I also work on applied machine learning for healthcare and distributed systems:
-
-- deep learning for detecting obstructive sleep apnea from ECG signals (_IJCA_, 2025)
-- causal representation learning for early cardiovascular risk prediction from electronic health records (_ICoICI_, 2026)
-- federated learning for privacy-preserving intelligence in IoT networks (_ICAIDIET_, 2026)
+I also work on applied machine learning for healthcare and distributed systems, including sleep apnea detection, cardiovascular risk prediction and federated learning for IoT networks.
 
 Before my PhD, I worked as a software engineer at NEC and Capgemini, and as an Assistant Professor teaching Artificial Intelligence and Advanced Data Structures and Algorithms.
 
