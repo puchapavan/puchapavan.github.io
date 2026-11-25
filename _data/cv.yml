@@ -51,7 +51,7 @@ cv:
         start_date: 2025-12
         end_date: 2026-06
         highlights:
-          - Performed functional and regression testing of enterprise applications: wrote and executed test cases, logged and tracked defects, and verified fixes before release.
+          - "Performed functional and regression testing of enterprise applications: wrote and executed test cases, logged and tracked defects, and verified fixes before release."
 
       - company: Srinivas Institute of Engineering and Technology
         position: Assistant Professor, AI & ML
@@ -93,3 +93,12 @@ cv:
         issuer: NPTEL
       - name: Human-Computer Interaction
         issuer: NPTEL
+    Faculty Development Programmes:
+      - bullet: "**International Trends in AI and Supercomputing for Climate, Energy and Health**, AICTE ATAL Academy (2025)"
+      - bullet: "**Forensic Cybersecurity: Concepts, Research, Trends, Process, Challenges, Policy and Compliance**, AICTE ATAL Academy (2025)"
+      - bullet: "**Quality Assurance and Institutional Reputation: A Focus on Accreditations and Rankings**, JNTUK (2025)"
+      - bullet: "**Foundation of Data Science and its Applications**, GNIT (2025)"
+      - bullet: "**Writing High-Impact Papers for Scopus and Web of Science Journals**, SRM (2025)"
+    Professional Memberships:
+      - bullet: "Life Member, International Association of Engineers (IAENG)"
+      - bullet: "Member, Institute for Engineering Research and Publication (IFERP)"
