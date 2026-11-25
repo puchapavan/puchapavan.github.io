@@ -36,8 +36,3 @@ I also work on applied machine learning for healthcare and distributed systems:
 
 Before my PhD, I worked as a software engineer at NEC and Capgemini, and as an Assistant Professor teaching Artificial Intelligence and Advanced Data Structures and Algorithms.
 
-### Contact
-
-I'm open to research collaborations and conversations. The best way to reach me is by email at [srinivasapavan28@gmail.com](mailto:srinivasapavan28@gmail.com).
-
-**Address:** Indian Institute of Information Technology, Design and Manufacturing (IIITDM) Kancheepuram, Vandalur–Kelambakkam Road, Chennai 600127, Tamil Nadu, India.

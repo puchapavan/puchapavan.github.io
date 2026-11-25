@@ -7,7 +7,9 @@ first_name: Pucha
 middle_name: Srinivasa
 last_name: Pavan
 contact_note: >
-  Email is the best way to reach me.
+  <h2 style="font-size:1.6rem;margin-top:1.5rem;">Contact</h2>
+  <p>I'm open to research collaborations and conversations. The best way to reach me is by email at <a href="mailto:srinivasapavan28@gmail.com">srinivasapavan28@gmail.com</a>.</p>
+  <p><b>Address:</b> Indian Institute of Information Technology, Design and Manufacturing (IIITDM) Kancheepuram, Vandalur–Kelambakkam Road, Chennai 600127, Tamil Nadu, India.</p>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Pucha Srinivasa Pavan, PhD scholar at IIITDM Kancheepuram working on the Winner Determination Problem in combinatorial auctions, and machine learning for healthcare and distributed systems.
 footer_text: >
