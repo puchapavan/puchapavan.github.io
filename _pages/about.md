@@ -14,11 +14,11 @@ profile:
     <p>Chennai 600127, India</p>
     <p><a href="mailto:srinivasapavan28@gmail.com">srinivasapavan28@gmail.com</a></p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 
