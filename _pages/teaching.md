@@ -1,6 +1,6 @@
 ---
 layout: page
-title: teaching
+title: Teaching
 permalink: /teaching/
 description: Notes and study material for students.
 nav: true

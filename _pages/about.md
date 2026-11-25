@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD Scholar at <a href="https://www.iiitdm.ac.in/">IIITDM Kancheepuram</a>, Chennai
 
