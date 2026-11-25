@@ -61,12 +61,13 @@ cv:
           - Supervised student projects and organized workshops.
 
       - company: NEC Corporation
-        position: Software Engineer
+        position: Graduate Engineer Trainee
         location: Bengaluru, India
-        start_date: 2022
-        end_date: 2023
+        start_date: 2023-01
+        end_date: 2023-07
         highlights:
-          - Built backend APIs and contributed to collaborative R&D projects.
+          - Built the data layer of MPOS, a point-of-sale application, with SQL Server and ADO.NET in C#.
+          - Built HTML user interfaces and tested the application before release.
 
     Skills:
       - name: Machine learning
