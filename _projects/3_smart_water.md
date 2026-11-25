@@ -6,7 +6,7 @@ importance: 3
 github: https://github.com/puchapavan/Smart-Water-Management-for-Agriculture
 ---
 
-A machine learning course project that helps farmers decide when to drain or irrigate a field. It combines three models into one decision engine, which sends an SMS alert and shows the status on a dashboard.
+A solo machine learning course project that helps farmers decide when to drain or irrigate a field. It combines three models into one decision engine, which sends an SMS alert and shows the status on a dashboard.
 
 - **Water-level detection:** classifies drone images of fields (FloodNet) as low, medium or high water using transfer learning on MobileNetV3.
 - **Drought early warning:** predicts drought risk from IMD gridded rainfall data (2015–2025) using the Standardized Precipitation Index and LightGBM.
