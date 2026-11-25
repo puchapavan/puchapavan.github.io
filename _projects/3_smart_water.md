@@ -3,6 +3,7 @@ layout: page
 title: Smart Water Management for Agriculture
 description: Deep learning water-level detection, weather forecasting and drought early warning for farm fields, with SMS alerts.
 importance: 3
+github: https://github.com/srinivas50505/Smart-Water-Management-for-Agriculture
 ---
 
 A machine learning course project that helps farmers decide when to drain or irrigate a field. It combines three models into one decision engine, which sends an SMS alert and shows the status on a dashboard.
@@ -33,3 +34,5 @@ A machine learning course project that helps farmers decide when to drain or irr
 | Drought early warning | LightGBM | 80.7% accuracy, 79.4% drought recall (baseline: 53.3%) |
 
 **Tools:** Python, deep learning (MobileNetV3 transfer learning), LightGBM, Open-Meteo API, Streamlit, Twilio / Fast2SMS.
+
+**Code:** [github.com/srinivas50505/Smart-Water-Management-for-Agriculture](https://github.com/srinivas50505/Smart-Water-Management-for-Agriculture)
