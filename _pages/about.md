@@ -28,6 +28,6 @@ I'm a PhD scholar at IIITDM Kancheepuram, where I study the **Winner Determinati
 
 Alongside my PhD work, I apply machine learning to healthcare and to privacy-preserving distributed systems, including ECG-based sleep apnea detection, cardiovascular risk prediction from electronic health records, and federated learning for IoT networks.
 
-Before starting my PhD in July 2026, I worked as a software engineer at Capgemini and NEC, and taught Artificial Intelligence and Machine Learning as an Assistant Professor.
+Before starting my PhD in July 2026, I worked as a software engineer at Capgemini and NEC, and taught Artificial Intelligence and Advanced Data Structures and Algorithms as an Assistant Professor.
 
 **Research interests:** combinatorial auctions, winner determination and combinatorial optimization, deep learning, healthcare AI, federated learning.
