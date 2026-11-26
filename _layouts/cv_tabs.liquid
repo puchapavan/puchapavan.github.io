@@ -42,7 +42,23 @@ layout: default
   /* One PDF link only: hide the icon the CV header adds next to the title. */
   .post-title > a.float-right { display: none; }
   .cv-panel[hidden] { display: none !important; }
+  .cv .list-group-item, .cv .list-group-item > .row > div { list-style: none; }
   @media (max-width: 576px) {
+    /* Stack the date/place column above each entry instead of squeezing it beside it. */
+    .cv .list-group-item > .row > .date-column,
+    .cv .list-group-item > .row > .date-column + div { flex: 0 0 100%; max-width: 100%; }
+    .cv .date-column { text-align: left !important; }
+    .cv .date-column .table-cv,
+    .cv .date-column .table-cv tbody { display: block; width: 100%; }
+    .cv .date-column .table-cv tr { display: inline-block; vertical-align: middle; margin-right: 0.6rem; }
+    .cv .date-column .table-cv td { padding: 0; border: 0; }
+    .cv .date-column .location { margin: 0; font-size: 0.85rem; }
+    .cv .list-group-item > .row > .date-column + div { margin-top: 0.4rem !important; }
+    .cv .list-group-item > .row > .date-column + div h6 { margin-left: 0 !important; }
+    .cv .list-group-item > .row > .date-column + div ul.items { padding-left: 1.1rem; }
+    .cv .list-group-item { padding-left: 0; padding-right: 0; }
+    .cv ul.list-group { padding-left: 0; margin-left: 0; list-style: none; }
+    .cv .list-group-item > .row { margin-left: 0; margin-right: 0; }
     .cv-tabs { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 0.4rem; }
     .cv-tabs button { flex: 0 0 auto; }
     .cv-tabs .cv-pdf { margin-left: 0; flex: 0 0 auto; order: -1; }
