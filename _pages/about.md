@@ -6,7 +6,7 @@ subtitle: PhD Scholar at <a href="https://www.iiitdm.ac.in/">IIITDM Kancheepuram
 
 profile:
   align: right
-  image: profile.jpg
+  image: profile-photo.jpg
   image_circular: true
   more_info: >
     <p>PhD Scholar</p>
@@ -39,7 +39,7 @@ Before my PhD, I worked as a software engineer at NEC and Capgemini, and as an A
   "name": "Pucha Srinivasa Pavan",
   "alternateName": ["P. S. Pavan", "Srinivasa Pavan Pucha", "Pucha Pavan"],
   "url": "https://puchapavan.github.io/",
-  "image": "https://puchapavan.github.io/assets/img/profile.jpg",
+  "image": "https://puchapavan.github.io/assets/img/profile-photo.jpg",
   "jobTitle": "PhD Scholar",
   "affiliation": {
     "@type": "CollegeOrUniversity",
