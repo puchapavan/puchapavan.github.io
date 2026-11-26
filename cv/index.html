@@ -54,6 +54,8 @@
     white-space: nowrap;
   }
   .cv-tabs .cv-pdf:hover { background: var(--global-theme-color); color: var(--global-bg-color); text-decoration: none; }
+  /* One PDF link only: hide the icon the CV header adds next to the title. */
+  .post-title > a.float-right { display: none; }
   .cv-panel[hidden] { display: none !important; }
   @media (max-width: 576px) {
     .cv-tabs { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 0.4rem; }
