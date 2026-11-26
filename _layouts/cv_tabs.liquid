@@ -28,10 +28,22 @@ layout: default
     border-color: var(--global-theme-color);
     color: var(--global-bg-color);
   }
+  .cv-tabs .cv-pdf {
+    margin-left: auto;
+    border: 1px solid var(--global-theme-color);
+    color: var(--global-theme-color);
+    border-radius: 999px;
+    padding: 0.3rem 0.9rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+  .cv-tabs .cv-pdf:hover { background: var(--global-theme-color); color: var(--global-bg-color); text-decoration: none; }
   .cv-panel[hidden] { display: none !important; }
   @media (max-width: 576px) {
     .cv-tabs { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 0.4rem; }
     .cv-tabs button { flex: 0 0 auto; }
+    .cv-tabs .cv-pdf { margin-left: 0; flex: 0 0 auto; order: -1; }
   }
 </style>
 
@@ -79,6 +91,15 @@ layout: default
       bar.appendChild(b);
       g.button = b;
     });
+    {% if page.cv_pdf %}
+    var pdf = document.createElement("a");
+    pdf.className = "cv-pdf";
+    pdf.href = "{{ page.cv_pdf | relative_url }}";
+    pdf.target = "_blank";
+    pdf.rel = "noopener";
+    pdf.textContent = "Download PDF";
+    bar.appendChild(pdf);
+    {% endif %}
     cv.parentNode.insertBefore(bar, cv);
 
     function show(slug, push) {
