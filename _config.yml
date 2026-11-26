@@ -294,6 +294,10 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: "google335e5198438ae9aa.html"
+    values:
+      sitemap: false
 
 sass:
   style: compressed
