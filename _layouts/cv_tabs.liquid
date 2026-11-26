@@ -1,0 +1,98 @@
+---
+layout: default
+---
+{% comment %}
+  Local layout: same as al_folio_core's cv layout, plus a tab bar that shows
+  one CV section at a time. Without JavaScript every section stays visible.
+{% endcomment %}
+{% assign cv_feature_enabled = site.al_folio.features.cv.enabled | default: true %}
+{% if site.plugins contains 'al_folio_cv' and cv_feature_enabled %}
+  {% al_folio_cv_render %}
+{% endif %}
+
+<style>
+  .cv-tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0 0.25rem; padding: 0; list-style: none; }
+  .cv-tabs button {
+    border: 1px solid var(--global-divider-color);
+    background: transparent;
+    color: var(--global-text-color);
+    border-radius: 999px;
+    padding: 0.3rem 0.9rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    line-height: 1.4;
+  }
+  .cv-tabs button:hover { border-color: var(--global-theme-color); color: var(--global-theme-color); }
+  .cv-tabs button[aria-selected="true"] {
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: var(--global-bg-color);
+  }
+  .cv-panel[hidden] { display: none !important; }
+  @media (max-width: 576px) {
+    .cv-tabs { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 0.4rem; }
+    .cv-tabs button { flex: 0 0 auto; }
+  }
+</style>
+
+<script>
+  (function () {
+    var cv = document.querySelector(".post .cv");
+    if (!cv) return;
+    var short = {
+      "Contact Information": "Personal info",
+      "Professional Summary": "Personal info",
+      "Faculty Development Programmes": "FDPs",
+      "Professional Memberships": "Memberships",
+    };
+    // Group each card (and the anchor before it) under a tab label.
+    var groups = [];
+    var byLabel = {};
+    Array.prototype.forEach.call(cv.children, function (el) {
+      if (!el.classList.contains("card")) return;
+      var h = el.querySelector(".card-title");
+      if (!h) return;
+      var title = h.textContent.trim();
+      var label = short[title] || title;
+      if (!byLabel[label]) {
+        byLabel[label] = { label: label, slug: "cv-" + label.toLowerCase().replace(/[^a-z0-9]+/g, "-"), els: [] };
+        groups.push(byLabel[label]);
+      }
+      byLabel[label].els.push(el);
+      el.classList.add("cv-panel");
+    });
+    if (groups.length < 2) return;
+
+    var bar = document.createElement("div");
+    bar.className = "cv-tabs";
+    bar.setAttribute("role", "tablist");
+    bar.setAttribute("aria-label", "CV sections");
+    groups.forEach(function (g) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.textContent = g.label;
+      b.setAttribute("role", "tab");
+      b.dataset.slug = g.slug;
+      b.addEventListener("click", function () {
+        show(g.slug, true);
+      });
+      bar.appendChild(b);
+      g.button = b;
+    });
+    cv.parentNode.insertBefore(bar, cv);
+
+    function show(slug, push) {
+      var found = groups.some(function (g) { return g.slug === slug; });
+      if (!found) slug = groups[0].slug;
+      groups.forEach(function (g) {
+        var on = g.slug === slug;
+        g.button.setAttribute("aria-selected", on ? "true" : "false");
+        g.els.forEach(function (el) { el.hidden = !on; });
+      });
+      if (push && history.replaceState) history.replaceState(null, "", "#" + slug);
+    }
+    // Tab hashes are prefixed with "cv-" so they never match a section anchor
+    // (which would make the browser jump past the tab bar).
+    show((location.hash || "").slice(1), false);
+  })();
+</script>
