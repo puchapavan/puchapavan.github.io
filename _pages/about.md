@@ -31,3 +31,30 @@ I also work on applied machine learning for healthcare and distributed systems, 
 
 Before my PhD, I worked as a software engineer at NEC and Capgemini, and as an Assistant Professor teaching Artificial Intelligence and Advanced Data Structures and Algorithms.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Pucha Srinivasa Pavan",
+  "alternateName": ["P. S. Pavan", "Srinivasa Pavan Pucha", "Pucha Pavan"],
+  "url": "https://puchapavan.github.io/",
+  "image": "https://puchapavan.github.io/assets/img/prof_pic.jpg",
+  "jobTitle": "PhD Scholar",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Indian Institute of Information Technology, Design and Manufacturing (IIITDM) Kancheepuram",
+    "url": "https://www.iiitdm.ac.in/"
+  },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "University College of Engineering Kakinada, JNTUK" },
+    { "@type": "CollegeOrUniversity", "name": "St. Ann's College of Engineering and Technology, Chirala" }
+  ],
+  "knowsAbout": ["Combinatorial auctions", "Winner Determination Problem", "Machine learning", "Deep learning", "Federated learning"],
+  "sameAs": [
+    "https://www.linkedin.com/in/pucha",
+    "https://github.com/puchapavan",
+    "https://scholar.google.com/citations?user=Zz8nErcAAAAJ"
+  ]
+}
+</script>

@@ -7,8 +7,7 @@ first_name: Pucha
 middle_name: Srinivasa
 last_name: Pavan
 contact_note:
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Pucha Srinivasa Pavan, PhD scholar at IIITDM Kancheepuram working on the Winner Determination Problem in combinatorial auctions, and machine learning for healthcare and distributed systems.
+description: "Pucha Srinivasa Pavan, PhD scholar at IIITDM Kancheepuram, Chennai. Research on the Winner Determination Problem in combinatorial auctions and machine learning. Publications, projects, teaching and CV."
 footer_text: >
   Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Pucha Srinivasa Pavan, combinatorial auctions, winner determination problem, machine learning, deep learning, IIITDM Kancheepuram # add your own keywords or leave empty
