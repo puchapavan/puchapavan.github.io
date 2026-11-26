@@ -36,6 +36,7 @@ cv:
         end_date: 2025
         highlights:
           - "Thesis: deep learning for automated obstructive sleep apnea detection from ECG signals."
+          - First Class with Distinction.
 
       - institution: St. Ann's College of Engineering and Technology, JNTUK
         location: Chirala, India
@@ -60,7 +61,7 @@ cv:
         end_date: 2025-11
         highlights:
           - Taught Artificial Intelligence and Advanced Data Structures and Algorithms (ADSA), both theory and lab.
-          - Supervised student projects and organized workshops.
+          - Supervised student projects, organized workshops and coordinated Faculty Development Programmes.
 
       - company: NEC Corporation
         position: Graduate Engineer Trainee
@@ -71,25 +72,36 @@ cv:
           - Built the data layer of MPOS, a point-of-sale application, with SQL Server and ADO.NET in C#.
           - Built HTML user interfaces and tested the application before release.
 
+      - company: NEC Corporation
+        position: Trainee (Apprenticeship)
+        location: Bengaluru, India
+        start_date: 2022-09
+        end_date: 2022-12
+
     Skills:
       - name: Machine learning
-        keywords: "Deep learning, signal processing, federated learning, causal representation learning"
+        keywords: "Deep learning, signal processing, federated learning, causal inference"
       - name: Programming
-        keywords: "Python, C, React.js, Flutter, LaTeX"
-      - name: Cloud
-        keywords: "AWS (Lambda, S3)"
+        keywords: "Python, C, C++, Java, C#, SQL, JavaScript"
+      - name: Tools
+        keywords: "AWS (Lambda, S3), SQL Server, ADO.NET, React, Git, Linux, LaTeX"
+      - name: Other
+        keywords: "Software testing, university teaching"
 
     Certificates:
-      - name: AWS Certified Developer
+      - name: AWS Certified Developer – Associate
         date: 2023-01-01
         issuer: Amazon Web Services
       - name: Machine Learning Specialization
         date: 2024-01-01
         issuer: CDAC Pune
-      - name: Python for Everybody
+      - name: Crash Course on Python
         date: 2023-01-01
         issuer: Google (Coursera)
-      - name: Internet of Things
+      - name: Microsoft SQL Server 2019 Essential Training
+        date: 2023-03-01
+        issuer: LinkedIn Learning
+      - name: Introduction to Internet of Things
         issuer: NPTEL
       - name: Human-Computer Interaction
         issuer: NPTEL
